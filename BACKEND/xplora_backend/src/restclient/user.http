@@ -1,0 +1,15 @@
+### GET /users/me
+GET http://localhost:3000/users/me/bed34c9d-3fcc-4f05-8092-db3be15a8786
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6ImJlZDM0YzlkLTNmY2MtNGYwNS04MDkyLWRiM2JlMTVhODc4NiIsInJvbGUiOiJ1c2VyIiwiaWF0IjoxNzE5MTU5ODMzLCJleHAiOjE3MTkxNjM0MzN9.2qQNMRoAfJHfkSPjYFZK821PsM52rrL8gopSvUIQ04s
+
+
+### PUT /users/me
+PUT http://localhost:3000/users/me/bed34c9d-3fcc-4f05-8092-db3be15a8786
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6ImJlZDM0YzlkLTNmY2MtNGYwNS04MDkyLWRiM2JlMTVhODc4NiIsInJvbGUiOiJ1c2VyIiwiaWF0IjoxNzE5MTU5ODMzLCJleHAiOjE3MTkxNjM0MzN9.2qQNMRoAfJHfkSPjYFZK821PsM52rrL8gopSvUIQ04s
+Content-Type: application/json
+
+{
+  "name": "John Doe",
+  "email": "john33@gmail.com",
+  "password": "password234"
+}

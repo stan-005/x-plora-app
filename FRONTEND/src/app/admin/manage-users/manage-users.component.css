@@ -1,0 +1,59 @@
+.manage-users-container {
+  padding: 20px;
+
+  h2 {
+    margin-bottom: 20px;
+  }
+
+  .search-container {
+    margin-bottom: 20px;
+
+    input {
+      width: 100%;
+      padding: 10px;
+      border: 1px solid #ccc;
+      border-radius: 5px;
+    }
+  }
+
+  table {
+    width: 100%;
+    border-collapse: collapse;
+
+    th, td {
+      border: 1px solid #ddd;
+      padding: 10px;
+      text-align: left;
+    }
+
+    th {
+      background-color: #f4f4f4;
+    }
+
+    button {
+      margin-right: 10px;
+      padding: 5px 10px;
+      border: none;
+      border-radius: 5px;
+      cursor: pointer;
+
+      &:first-of-type {
+        background-color: #5bc0de;
+        color: white;
+      }
+
+      &:last-of-type {
+        background-color: #d9534f;
+        color: white;
+      }
+
+      &:hover:first-of-type {
+        background-color: #31b0d5;
+      }
+
+      &:hover:last-of-type {
+        background-color: #c9302c;
+      }
+    }
+  }
+}

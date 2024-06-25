@@ -1,0 +1,16 @@
+### GET ALL USERS
+GET http://localhost:3000/usersadmin/e69b1d75-7c79-44a8-b37e-87897d8ce17c
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6ImU2OWIxZDc1LTdjNzktNDRhOC1iMzdlLTg3ODk3ZDhjZTE3YyIsInJvbGUiOiJhZG1pbiIsImlhdCI6MTcxOTIyMzQxMSwiZXhwIjoxNzE5MjI3MDExfQ.pRE8p6EIue7TxwrewDHC7-8hFHm97pVU8DMcEaFlyI8
+
+### UPDATE USER
+PUT http://localhost:3000/usersadmin/e69b1d75-7c79-44a8-b37e-87897d8ce17c/:id
+Content-Type: application/json
+Authorization: Bearer <token>
+
+{
+    "role": "admin"
+}
+
+### DELETE USER
+DELETE http://localhost:3000/usersadmin/:admin/:id
+Authorization: Bearer <token>

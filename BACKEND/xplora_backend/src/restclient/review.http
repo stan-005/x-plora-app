@@ -1,0 +1,14 @@
+### POST /reviews
+POST http://localhost:3000/reviews/bed34c9d-3fcc-4f05-8092-db3be15a8786
+Content-Type: application/json
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6ImJlZDM0YzlkLTNmY2MtNGYwNS04MDkyLWRiM2JlMTVhODc4NiIsInJvbGUiOiJ1c2VyIiwiaWF0IjoxNzE5MTY5NzYyLCJleHAiOjE3MTkxNzMzNjJ9.-44idVNLdWmhbs1RHYWVyi2IZycUfmhhTnp_Hpwpz7w
+
+{
+  "tourId":"2b69aa26-e85d-4114-ae4a-1050c7b984be",
+  "rating": 5,
+  "comment": "Great book!"
+}
+
+### GET /reviews
+GET http://localhost:3000/reviews/2b69aa26-e85d-4114-ae4a-1050c7b984be
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6ImJlZDM0YzlkLTNmY2MtNGYwNS04MDkyLWRiM2JlMTVhODc4NiIsInJvbGUiOiJ1c2VyIiwiaWF0IjoxNzE5MTY5NzYyLCJleHAiOjE3MTkxNzMzNjJ9.-44idVNLdWmhbs1RHYWVyi2IZycUfmhhTnp_Hpwpz7w

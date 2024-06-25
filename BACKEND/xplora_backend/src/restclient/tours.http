@@ -1,0 +1,36 @@
+### POST /tours
+POST http://localhost:3000/tours/e69b1d75-7c79-44a8-b37e-87897d8ce17c
+Content-Type: application/json
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6ImU2OWIxZDc1LTdjNzktNDRhOC1iMzdlLTg3ODk3ZDhjZTE3YyIsInJvbGUiOiJhZG1pbiIsImlhdCI6MTcxOTE2Mzg5NCwiZXhwIjoxNzE5MTY3NDk0fQ.KWfqr65VZxa1amFOhxy4dl-5mNySehEQXKy_M3gVxLY
+
+{
+    "name": "New Tour",
+    "destination": "Maasai mara",
+    "duration": 3,
+    "price": 100,
+    "tourType": "wildlife"
+}
+
+### GET /tours
+GET http://localhost:3000/tours
+
+
+### GET /tours/:id
+GET http://localhost:3000/tours/01d2cfef-15b8-47d5-a3e6-980d15e1240d
+
+
+### PUT /tours/:id
+PUT http://localhost:3000/tours/e69b1d75-7c79-44a8-b37e-87897d8ce17c/01d2cfef-15b8-47d5-a3e6-980d15e1240d/
+Content-Type: application/json
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6ImU2OWIxZDc1LTdjNzktNDRhOC1iMzdlLTg3ODk3ZDhjZTE3YyIsInJvbGUiOiJhZG1pbiIsImlhdCI6MTcxOTE2Mzg5NCwiZXhwIjoxNzE5MTY3NDk0fQ.KWfqr65VZxa1amFOhxy4dl-5mNySehEQXKy_M3gVxLY
+
+{
+    "name": "New Tour",
+    "destination": "Maasai mara park",
+    "duration": 3,
+    "price": 100,
+    "tourType": "wildlife"
+}
+
+### DELETE /tours/:id
+DELETE http://localhost:3000/tours/e69b1d75-7c79-44a8-b37e-87897d8ce17c/666463c5-a0bb-402c-a5d7-fe63435cbd9c

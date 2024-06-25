@@ -1,0 +1,25 @@
+### POST /booking
+POST http://localhost:3000/bookings/bed34c9d-3fcc-4f05-8092-db3be15a8786
+Content-Type: application/json
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6ImJlZDM0YzlkLTNmY2MtNGYwNS04MDkyLWRiM2JlMTVhODc4NiIsInJvbGUiOiJ1c2VyIiwiaWF0IjoxNzE5MTY5NzYyLCJleHAiOjE3MTkxNzMzNjJ9.-44idVNLdWmhbs1RHYWVyi2IZycUfmhhTnp_Hpwpz7w
+
+{
+    "tourId": "2b69aa26-e85d-4114-ae4a-1050c7b984be"
+}
+
+### GET /booking
+GET http://localhost:3000/bookings/bed34c9d-3fcc-4f05-8092-db3be15a8786
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6ImJlZDM0YzlkLTNmY2MtNGYwNS04MDkyLWRiM2JlMTVhODc4NiIsInJvbGUiOiJ1c2VyIiwiaWF0IjoxNzE5MTY5NzYyLCJleHAiOjE3MTkxNzMzNjJ9.-44idVNLdWmhbs1RHYWVyi2IZycUfmhhTnp_Hpwpz7w
+
+### GET /booking all
+GET http://localhost:3000/bookings
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6ImU2OWIxZDc1LTdjNzktNDRhOC1iMzdlLTg3ODk3ZDhjZTE3YyIsInJvbGUiOiJhZG1pbiIsImlhdCI6MTcxOTE5MjMzNiwiZXhwIjoxNzE5MTk1OTM2fQ.dTqrZ3LzYp_3gTFWxZhbPC6pJ9SpVhg5MWLCS_hWDr4
+
+### PUT /booking
+PUT http://localhost:3000/bookings/4239342d-76a3-4af9-a3b5-ec434a880691
+Content-Type: application/json
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6ImU2OWIxZDc1LTdjNzktNDRhOC1iMzdlLTg3ODk3ZDhjZTE3YyIsInJvbGUiOiJhZG1pbiIsImlhdCI6MTcxOTE5MjMzNiwiZXhwIjoxNzE5MTk1OTM2fQ.dTqrZ3LzYp_3gTFWxZhbPC6pJ9SpVhg5MWLCS_hWDr4
+
+{
+    "status": "cancelled"
+}

@@ -1,0 +1,51 @@
+/* src/app/manage-tours/manage-tours.component.css */
+.container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+h2 {
+  margin-bottom: 20px;
+}
+
+.form-group {
+  margin-bottom: 15px;
+}
+
+.form-control {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 5px;
+}
+
+.btn {
+  margin-right: 10px;
+}
+
+.invalid-feedback {
+  color: red;
+  font-size: 0.9em;
+}
+
+.tour-list {
+  margin-top: 30px;
+}
+
+.list-group-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.list-group-item h4 {
+  margin: 0;
+}
+
+.list-group-item p {
+  margin: 0;
+}
+
+.list-group-item .btn {
+  margin-left: 10px;
+}

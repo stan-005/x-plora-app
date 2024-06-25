@@ -1,0 +1,43 @@
+### POST /api/auth/register
+POST http://localhost:3000/auth/register
+Content-Type: application/json
+
+{
+  "name": "John Doe",
+  "email": "john.doe@example.com",
+  "password": "password123",
+  "role": "user"
+}
+
+### POST /api/auth/register (admin)
+POST http://localhost:3000/auth/register
+Content-Type: application/json
+
+{
+  "name": "Stanley Agoti",
+  "email": "stanley@gmail.com",
+  "password": "admin",
+  "role": "admin"
+}
+
+### POST /api/auth/login
+POST http://localhost:3000/auth/login
+Content-Type: application/json
+
+{
+  "email": "stanley@gmail.com",
+  "password": "admin"
+}
+
+### POST /api/auth/login (user)
+POST http://localhost:3000/auth/login
+Content-Type: application/json
+
+{
+  "email": "john.doe@example.com",
+  "password": "password123"
+}
+
+# {
+#   "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6ImJlZDM0YzlkLTNmY2MtNGYwNS04MDkyLWRiM2JlMTVhODc4NiIsInJvbGUiOiJ1c2VyIiwiaWF0IjoxNzE5MTU5ODMzLCJleHAiOjE3MTkxNjM0MzN9.2qQNMRoAfJHfkSPjYFZK821PsM52rrL8gopSvUIQ04s"
+# }

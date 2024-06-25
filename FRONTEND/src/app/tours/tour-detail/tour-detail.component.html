@@ -1,0 +1,13 @@
+<app-navbar></app-navbar>
+
+<div class="tour-detail-container">
+  <h2>Tour Details</h2>
+
+  <div class="tour-details">
+    <h3>{{ tour.title }}</h3>
+    <p>{{ tour.description }}</p>
+    <p>Price: {{ tour.price }}</p>
+    <button (click)="bookTour(tour.id)">Book Now</button>
+  </div>
+</div>
+

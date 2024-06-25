@@ -1,0 +1,18 @@
+<app-navbar></app-navbar>
+<div class="tour-list-container">
+  <h2>Tours Available</h2>
+  
+  <div class="tour-card" *ngFor="let tour of tours">
+    <div class="tour-image">
+      <img src="{{ tour.image }}" alt="{{ tour.name }}">
+    </div>
+    <div class="tour-details">
+      <h3>{{ tour.name }}</h3>
+      <p><strong>Destination:</strong> {{ tour.destination }}</p>
+      <p><strong>Duration:</strong> {{ tour.duration }}</p>
+      <p><strong>Price:</strong> {{ tour.price }}</p>
+      <p><strong>Type:</strong> {{ tour.type }}</p>
+      <button (click)="bookTour(tour)">Book Now</button>
+    </div>
+  </div>
+</div>
